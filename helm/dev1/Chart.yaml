@@ -3,6 +3,6 @@ name: nginx_dev1
 version: 0.1.0
 
 dependencies:
-  - name: "nginx"
+  - name: "orb-app-test"
     version: "0.1.0"
     repository: "file://../orb-app-test"
