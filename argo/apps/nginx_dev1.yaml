@@ -8,10 +8,23 @@ spec:
   source:
     repoURL: https://github.com/ephur/orb-app-test.git
     targetRevision: HEAD
-    path: argo/apps
+    path: helm/dev1
   destination:
     server: https://kubernetes.default.svc
     namespace: dev1
+
+spec:
+  project: default
+  source:
+    chart: sealed-secrets
+    repoURL: https://bitnami-labs.github.io/sealed-secrets
+    targetRevision: 1.16.1
+    helm:
+      releaseName: sealed-secrets
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: kubeseal
+
 ---
 apiVersion: v1
 kind: Namespace
