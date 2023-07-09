@@ -1,0 +1,6 @@
+dependencies:
+- name: nginx
+  repository: file://../orb-app-test
+  version: 0.1.0
+digest: sha256:ff16e03181b0c097bb62b6ed2c9f6cdd31ae88840f9ea359691a2692e7a34667
+generated: "2023-07-08T23:45:02.433533-05:00"
