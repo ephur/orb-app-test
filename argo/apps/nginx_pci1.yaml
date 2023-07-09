@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: nginx_pci1
+  name: nginx-pci1
   namespace: argocd
 spec:
   project: default
