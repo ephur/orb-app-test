@@ -1,0 +1,8 @@
+apiVersion: v2
+name: nginx_ci1
+version: 0.1.0
+
+dependencies:
+  - name: "nginx"
+    version: "0.1.0"
+    repository: "file://../orb-app-test"
